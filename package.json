@@ -1,0 +1,33 @@
+{
+  "name": "@iflevox/ui",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Next-generation kinetic UI components and micro-animated vector icons for React & Next.js. Copy-paste ownership. Zero runtime lock-in.",
+  "workspaces": [
+    "packages/*",
+    "cli"
+  ],
+  "scripts": {
+    "build": "cd cli && npm run build",
+    "test": "node packages/cli/bin/index.js --help"
+  },
+  "keywords": [
+    "ui",
+    "kinetic-ui",
+    "components",
+    "icons",
+    "animated-icons",
+    "react",
+    "nextjs",
+    "tailwind",
+    "framer-motion",
+    "shadcn"
+  ],
+  "author": "Ozodbek Nazarov <ozod23nazarov@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://iflevox.uz/ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iFlevox/ui.git"
+  }
+}
